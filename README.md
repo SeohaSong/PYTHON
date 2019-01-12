@@ -1,7 +1,6 @@
-# shs
+# shs (seohasong의 Package)
 
-seohasong의 종합 패키지
-
-- pyshs
-    - gardener
-    - lasvegas
+- python
+    - shs
+        - gardener
+        - lasvegas
