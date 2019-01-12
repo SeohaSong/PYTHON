@@ -1,6 +1,6 @@
 # shs
 
-seohasong의 파이썬 패키지
+seohasong의 종합 패키지
 
 - gardener
 - lasvegas
