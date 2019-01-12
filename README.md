@@ -2,6 +2,6 @@
 
 seohasong의 종합 패키지
 
-- shs
+- pyshs
     - gardener
     - lasvegas
