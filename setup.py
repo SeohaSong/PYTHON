@@ -9,7 +9,7 @@ setuptools.setup(
     version="1.0.1",
     author="seohasong",
     author_email="tisutoo@gmail.com",
-    description="A small example package",
+    description="SEOHASONG Packages",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/SeohaSong/shs",

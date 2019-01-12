@@ -1,4 +1,4 @@
-# shs (seohasong의 Package)
+# shs (SEOHASONG의 Package)
 
 - python
     - shs
