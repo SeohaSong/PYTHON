@@ -7,7 +7,7 @@ import shutil
 def get_global_filepaths(root_dir):
     ls = os.listdir(root_dir)
     paths = [os.path.join(root_dir, c) for c in ls]
-    lses = [[path] if os.path.isfile(path) else get_global_filepaths(path)
+    lses = [get_global_filepaths(path) if os.path.isdir(path) else [path]
             for path in paths]
     filepaths = sum(lses, [])
     return filepaths
