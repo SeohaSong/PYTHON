@@ -1,5 +1,6 @@
 # shs
 
-This is a simple example package. You can use
-[Github-flavored Markdown](https://github.com/SeohaSong/shs)
-to write your content.
+seohasong의 파이썬 패키지
+
+- gardener
+- lasvegas
