@@ -12,7 +12,7 @@ setuptools.setup(
     description="A small example package",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/SeohaSong/tools",
+    url="https://github.com/SeohaSong/shs",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
