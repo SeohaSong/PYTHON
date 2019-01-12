@@ -1,4 +1,2 @@
 
-import shs
-
 name = "shs"
