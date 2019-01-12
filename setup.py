@@ -12,7 +12,7 @@ setuptools.setup(
     description="SEOHASONG Packages",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/SeohaSong/shs",
+    url="https://github.com/SeohaSong/python-shs",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
