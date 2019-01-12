@@ -1,6 +1,4 @@
-# shs (SEOHASONG의 Package)
+# shs (SEOHASONG의 Python Package)
 
-- python
-    - shs
-        - gardener
-        - lasvegas
+- gardener
+- lasvegas
