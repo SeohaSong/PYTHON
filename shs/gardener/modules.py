@@ -22,11 +22,12 @@ def get_global_dir_paths(root_dir):
     return dir_paths
 
 
-def clear_current_dir(blacklist):
+def clear_current_dir(target_path, blacklist):
     for black in blacklist:
         print("[%s]" % black)
         parser = re.compile('(.*?[\\\\/]'+black+')([\\\\/].*|$)')
-        paths = get_global_filepaths('.')+get_global_dir_paths('.')
+        paths = [*get_global_filepaths(target_path),
+                 *get_global_dir_paths(target_path)]
         paths = [parser.search(v).group(1) for v in paths if parser.search(v)]
         paths = sorted(set(paths))
         for path in paths:
