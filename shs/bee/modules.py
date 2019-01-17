@@ -4,7 +4,7 @@ import requests
 
 
 def get_public_ip():        
-    parser = re.compile(r"\d{2,3}\.\d{2,3}\.\d{2,3}\.\d{2,3}")
+    parser = re.compile(r"\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}")
     urls = [
         "http://ip.42.pl/raw",
         "https://jsonip.com/",
