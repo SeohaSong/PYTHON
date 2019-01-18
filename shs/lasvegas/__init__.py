@@ -1,2 +1,2 @@
 
-from .modules import get_combs
+from .init import get_combs

@@ -1,2 +1,2 @@
 
-from .modules import get_public_ip
+from .init import get_public_ip
